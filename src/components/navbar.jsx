@@ -39,7 +39,7 @@ const Barleft = styled.div`
 
 const MenuItem = styled(Link)`
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration: none;
   display: flex;
   justify-content: center;

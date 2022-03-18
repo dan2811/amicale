@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PhoneIcon from '@mui/icons-material/Phone';
-import SkypeIcon from '../assets/skype_icon.png';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -80,7 +79,7 @@ const HeaderBar = () => {
                     <Phone /> 07816 936723
                 </Info>
                 <Info>
-                    <StyledImg src={SkypeIcon} alt="Skype"/>
+                    <StyledImg src={'/assets/skype_icon.png'} alt="Skype"/>
                     amicale_tutoring
                 </Info>
                 <Info>
